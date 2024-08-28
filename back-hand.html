@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css"
+    />
+
+    <title>All Clients Information</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2 bg-secondary vh-100">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html">All Cleints</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="back-hand.html"
+                >Add Cleints
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-10 mt-5">
+          <form action="#">
+
+
+            <div class="row mb-md-3 mb-2">
+              <div class="col-md-6">
+                <label for="name" class="form-label"> Name </label>
+                <input type="text" name="name" class="form-control" autofocus />
+              </div>
+              <div class="col-md-6">
+                <label for="phone" class="form-label"> Phone </label>
+                <input type="text" name="phone" class="form-control" />
+              </div>
+            </div>
+
+            
+            <div class="row mb-md-3 mb-2">
+              <div class="col-md-6">
+                <label for="email" class="form-label"> Email </label>
+                <input type="email" name="email" class="form-control" />
+              </div>
+              <div class="col-md-6">
+                <label for="address" class="form-label"> Address </label>
+                <input type="text" name="address" class="form-control" />
+              </div>
+            </div>
+
+
+            <div class="row mb-md-4 mb-3">
+              <div class="col-md-6">
+                <label for="project" class="form-label"> Project </label>
+                <input type="text" name="project" class="form-control">
+              </div>
+              <div class="col-md-2">
+                <label for="facebook-review" class="form-label"> Facebook Review </label>
+                <select name="facebook-review" class="form-select">
+                  <option selected> Select One </option>
+                  <option value="Yes"> Yes </option>
+                  <option value="No"> No </option>
+                </select>
+              </div>
+
+              <div class="col-md-2">
+                <label for="google-review" class="form-label"> Gogole Review </label>
+                <select name="google-review" class="form-select">
+                  <option selected> Select One </option>
+                  <option value="Yes"> Yes </option>
+                  <option value="No"> No </option>
+                </select>
+              </div>
+
+              <div class="col-md-2">
+                <label for="page-number" class="form-label"> Page Number </label>
+                <input type="number" name="page-number" id="" class="form-control">
+              </div>
+
+            </div>
+
+            
+              <button type="submit" class="btn btn-primary"> Submit </button>
+              <button type="reset" class="btn btn-danger"> Reset </button>
+            
+
+
+
+
+
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

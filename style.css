@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+i.bi.bi-person-plus-fill,
+i.bi.bi-people-fill {
+    font-size: 22px;
+    padding-right: 11px;
+}

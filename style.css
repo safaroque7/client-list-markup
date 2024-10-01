@@ -13,3 +13,7 @@ i.bi.bi-people-fill {
 .border-bottom-custom-color-1{
     border-bottom: 1px solid #ced4da;
 }
+
+h1.total-items a:hover {
+    text-decoration: underline !important;
+}
